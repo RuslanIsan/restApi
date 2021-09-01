@@ -12,7 +12,7 @@ class RestApiApplication {
 
 	@GetMapping
 	fun hi(): Person {
-		return Person(name = "Martin", lastName = "Ed")
+		return Person(name = "Ruslan", lastName = "Isanbaev")
 	}
 }
 
